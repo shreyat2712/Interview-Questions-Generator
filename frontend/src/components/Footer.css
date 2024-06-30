@@ -1,0 +1,10 @@
+.h_footer{
+    bottom: 0;
+    padding: 11px;
+    font-size: 15px;
+    font-family: 'Aleo';
+    text-align: center;
+    background: var(--primary-dark);
+    margin-top: 20px;
+    color: var(--secondary-light);
+}

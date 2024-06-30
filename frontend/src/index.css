@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    /* --primary-dark: #164863; */
+    /* --primary-light: #427D9D; */
+    /* --secondary-dark: #9BBEC8; */
+    --primary-dark: #025253;
+    --primary-light: #109186;
+    --secondary-dark: #D4F4B5;
+    --secondary-light: #DDF2FD;
+}

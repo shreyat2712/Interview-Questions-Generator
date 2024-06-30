@@ -1,0 +1,33 @@
+.s_myQADiv {
+    margin-top: 30px;
+}
+.s_qaBox {
+    padding-left: 12%;
+    padding-right: 12%;
+    font-family: monospace;
+}
+.s_myQABox {
+    padding: 15px;
+    font-size: 1.2em;
+    color: var(--secondary-light);
+    background-color: var(--primary-dark);
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    padding-left: 25px;
+}
+.s_blueText {
+    font-size: 1.2em;
+    color: var(--secondary-light);
+    text-align: center;
+}
+.s_blueBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: var(--primary-dark);
+    border-radius: 10px 10px 0 0;
+    filter: brightness(1.5);
+    font-family: monospace;
+    align-items: center;
+    padding: 20px 40px;
+}

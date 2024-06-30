@@ -1,0 +1,13 @@
+.s_mainTextIntv {
+    display: inline;
+    font-size: 2em;
+    width: 80%;
+    font-family: 'Aleo', sans-serif, monospace;
+    font-weight: 600;
+    color: var(--primary-dark);
+    border-bottom: 5px solid var(--primary-light);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,138 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap')  */
+.h_outer_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h_container{
+    /* z-index: 10; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    border: 2px solid var(--primary-dark);
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin: 20px;
+}
+.h_topic{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Aleo", serif;
+    color:var(--primary-dark);
+    margin-bottom: 30px;
+}
+.h_label{
+    color: var(--primary-dark);
+    font-family: "Aleo", serif;
+    font-size: 20px;    
+}
+.h_input{
+    outline: none;
+    width: 230px;
+    color: var(--primary-light);
+    font-size: 17px;
+    font-family: "Aleo", serif;
+    border-radius: 5px;
+    border: 2px solid var(--primary-dark);
+    margin: 5px 0 15px 0;
+    padding: 9px 10px 9px 11px;
+}
+.h_input_password{
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: var(--primary-light);
+    font-family: "Aleo", serif;
+}
+.h_icon{
+    cursor: pointer;
+    position: absolute;
+}
+.h_forgotpass{
+    text-align: right;
+    font-family: "Aleo",serif;
+    color: var(--primary-light);
+}
+
+.h_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h_button{
+    border: 2px solid var(--primary-dark);
+    border-radius: 10px;
+    background-color: var(--primary-dark);
+    font-family: "Aleo",serif;
+    color: var(--secondary-light);
+    width: 100%;
+    padding: 15px 50px;
+}
+.h_signup{
+    font-family: "Aleo", serif;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--primary-light);
+}
+.h_signup_link{
+    color: var(--primary-dark);
+}
+.h_signup_link:hover,.h_forgotpass:hover, .h_button{
+    cursor: pointer;
+}
+.h_darkBG {
+    background-color: rgba(0, 0, 0, 0.08);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.h_centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h_inputImage{
+    margin-bottom: 10px;
+    color: var(--primary-dark);
+    font-family: 'Aleo';
+}
+@media only screen and (max-width: 435px) {
+    .h_container{
+        width: 250px;
+        padding: 20px 0px;
+    }
+    .h_form{
+        width: 220px;
+    }
+    .h_textinput{
+        width: 207px;
+    }
+    .h_topic{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }.h_cross {
+        top: -59px;
+        right: -137px;
+    }
+    .h_label{
+        font-size: 15px;
+    }
+    .h_input,.h_input_password, .h_forgotpass,.h_signup{
+        font-size: 12px;
+    }
+    .h_icon{
+        left: 250px;
+    }
+}

@@ -1,0 +1,20 @@
+.s_queAnsBox {
+    margin-bottom: 10px;
+    font-family: monospace;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+.s_questions {
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.s_answers {
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+    background-color: var(--secondary-light);
+    opacity: 0.7;
+    border-radius: 4px;
+}

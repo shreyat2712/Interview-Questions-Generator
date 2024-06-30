@@ -1,0 +1,36 @@
+.s_myQAContainer {
+    border-bottom: 2px solid var(--primary-light);
+    border-radius: 0 0 7px 7px;
+    padding: 10px;
+}
+.s_myQAquestions {
+    padding: 10px;
+    background-color: white;
+}
+.s_myQAanswers {
+    padding: 10px;
+    background-color: var(--secondary-light);
+    opacity: 0.7;
+    border-radius: 4px;
+}
+.s_myQAButtons {
+    text-align: center;
+    padding: 7px;
+    margin: 10px 10px 2px 2px;
+}
+.s_myQAButtonsED {
+    font-family: monospace;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    color: var(--secondary-light);
+    background: var(--primary-dark);
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.s_myQAButtonsED:hover{
+    border: 2px solid var(--primary-dark);
+    background: none;
+    color: var(--primary-dark);
+    transition: 0.2s;
+}
